@@ -111,7 +111,7 @@ main {
         }
       }
     }
-    //2nd Section at the right hand side
+    //2nd div at the right hand side
     .side-news {
       background: $very-dark-blue;
       padding: 0 2.5rem;
@@ -149,7 +149,7 @@ main {
         margin: 1.6rem 0;
       }
     }
-    //Last section
+    //Last div
     .other-news {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -356,7 +356,7 @@ main {
         }
       }
 
-      .side-news{
+      .side-news {
         padding: 2.6rem;
         .new-article {
           .headline-s {
@@ -372,10 +372,10 @@ main {
         }
       }
 
-      .other-news{
-        .o_n-article{
+      .other-news {
+        .o_n-article {
           grid-gap: 30px;
-          img{
+          img {
             width: 100%;
           }
         }
@@ -384,39 +384,39 @@ main {
   }
 }
 
-@media (max-width: 450px){
-  body{
+@media (max-width: 450px) {
+  body {
     padding: 25px;
     // overflow-x: hidden;
   }
-  header{
+  header {
     padding: 1rem 0;
-    .logo{
+    .logo {
       scale: 0.8;
     }
-    .menu-components{
-      padding: 10vw; 
-      .mobile-links{
+    .menu-components {
+      padding: 10vw;
+      .mobile-links {
         line-height: 3rem;
         transform: translateY(-6.7rem);
       }
     }
   }
 
-  main{
-    .news{
-      .side-news{
+  main {
+    .news {
+      .side-news {
         padding: 2rem;
-        .heading{
+        .heading {
           padding: 0 0 1.8rem 0;
         }
       }
 
-      .other-news{
-        .o_n-article{
+      .other-news {
+        .o_n-article {
           // grid-gap: 20px;
           width: 100%;
-          img{
+          img {
             scale: 1.2;
             padding: 0 0 0 9px;
           }
