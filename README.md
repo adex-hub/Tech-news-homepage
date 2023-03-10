@@ -29,7 +29,7 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://technewsappbyade.netlify.app)
+- Live Site URL: [https://technewsappbyade.netlify.app]
 
 ### Built with
 
