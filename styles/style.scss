@@ -301,7 +301,7 @@ main {
       justify-content: flex-end;
     }
     .menu-components {
-      display: grid;
+      display: none; /////////////////////////////////
       grid-template-columns: 5fr 1fr;
       position: absolute;
       padding: 62px;
@@ -423,5 +423,11 @@ main {
         }
       }
     }
+  }
+}
+
+@media(max-height: 390px){
+  header .menu-components .mobile-links{
+    line-height: 10vh;
   }
 }
